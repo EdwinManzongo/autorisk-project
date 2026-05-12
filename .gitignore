@@ -28,3 +28,6 @@ yarn-error.log*
 # ML artifacts
 *.pkl
 *.joblib
+
+# Claude Code
+.claude/
