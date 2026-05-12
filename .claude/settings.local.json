@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/user/Public/Xarani/Web/autorisk/backend/core /Users/user/Public/Xarani/Web/autorisk/backend/models /Users/user/Public/Xarani/Web/autorisk/backend/ml /Users/user/Public/Xarani/Web/autorisk/backend/routers)",
+      "Bash(mkdir -p /Users/user/Public/Xarani/Web/autorisk/frontend/public /Users/user/Public/Xarani/Web/autorisk/frontend/src/pages /Users/user/Public/Xarani/Web/autorisk/frontend/src/components/admin /Users/user/Public/Xarani/Web/autorisk/frontend/src/components/ui /Users/user/Public/Xarani/Web/autorisk/frontend/src/lib /Users/user/Public/Xarani/Web/autorisk/frontend/src/hooks)",
+      "Bash(cp /Users/user/Public/Xarani/Web/nexaweb/frontend/tailwind.config.js /Users/user/Public/Xarani/Web/autorisk/frontend/tailwind.config.js)",
+      "Bash(cp /Users/user/Public/Xarani/Web/nexaweb/frontend/craco.config.js /Users/user/Public/Xarani/Web/autorisk/frontend/craco.config.js)",
+      "Bash(cp /Users/user/Public/Xarani/Web/nexaweb/frontend/jsconfig.json /Users/user/Public/Xarani/Web/autorisk/frontend/jsconfig.json)",
+      "Bash(cp /Users/user/Public/Xarani/Web/nexaweb/frontend/components.json /Users/user/Public/Xarani/Web/autorisk/frontend/components.json)",
+      "Bash(cp /Users/user/Public/Xarani/Web/nexaweb/frontend/postcss.config.js /Users/user/Public/Xarani/Web/autorisk/frontend/postcss.config.js)",
+      "Bash(cp -r /Users/user/Public/Xarani/Web/nexaweb/frontend/src/components/ui /Users/user/Public/Xarani/Web/autorisk/frontend/src/components/ui)",
+      "Bash(cp /Users/user/Public/Xarani/Web/nexaweb/frontend/src/hooks/use-toast.js /Users/user/Public/Xarani/Web/autorisk/frontend/src/hooks/use-toast.js)",
+      "Bash(cp /Users/user/Public/Xarani/Web/nexaweb/frontend/src/lib/utils.js /Users/user/Public/Xarani/Web/autorisk/frontend/src/lib/utils.js)",
+      "Bash(chmod +x /Users/user/Public/Xarani/Web/autorisk/setup.sh)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s http://localhost:8002/api/auth/login -X POST -H \"Content-Type: application/json\" -d '{\"email\":\"admin@autorisk.com\",\"password\":\"admin123\"}')",
+      "Bash(curl *)",
+      "Bash(node --input-type=module)",
+      "Bash(python3 -m json.tool)",
+      "Bash(node *)",
+      "Bash(python3 *)"
+    ]
+  }
+}
